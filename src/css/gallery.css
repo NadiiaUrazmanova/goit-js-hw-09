@@ -1,0 +1,14 @@
+
+.gallery {
+    box-sizing: border-box;
+    padding: 24px 156px 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+
+.gallery-item {
+    flex-basis: calc((100% - 48px) / 3);
+}
